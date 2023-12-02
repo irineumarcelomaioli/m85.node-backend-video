@@ -24,7 +24,7 @@ server.get('/videos', async (request) => {
 
     const videos = await database.list(search)
     
-    return videos
+    // return videos
 })
 
 server.put('/videos/:id', async (request, reply) => {
